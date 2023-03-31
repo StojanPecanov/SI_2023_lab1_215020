@@ -1,0 +1,123 @@
+
+$ mkdir SI_2023_lab1_215020 (Kreiranje na lokalno repo)
+
+
+$ cd SI_2023_lab1_215020 (prefrluvanje na lokalnoto repo)
+
+$ git init (inicijalizacija na git)
+
+
+$ git status (proverka)
+
+$ nano README.md (kreiranje na readme fajlot)
+
+$ git add README.md (dodavanje na readme fajlot)
+
+$ git commit -m "Initial commit" (zaboraviv da napravam config xD )
+
+$ git config --global user.name "Stojan Pecanov" (pravam config xD)
+
+$ git config --global user.email specanov32@gmail.com
+
+$ git commit -m "Initial commit" (pravam commit na fajlot)
+
+$ nano README.md (napraviv proverka za da mi bide se tocno)
+
+$ git remote add origin https://github.com/StojanPecanov/SI_2023_lab1_215020.git
+ (povrzuvanje so remote repo na github)
+$ git push -u origin master
+(dodavanje na readme fajlot na remote repo)
+$ nano SILab1.java (kreiranje na Silab1.java fajlot)
+
+$ git status (proverka do kade sum da ne sum ispustil nesto)
+
+
+$ git add SILab1.java (dodavanje na SIlab1.java vo lokalnoto repo)
+
+
+$ git status (proverka)
+
+$ git commit -m "Add java class" (pravam commit so poraka)
+
+
+$ git branch bug1 (kreiranje na branch bug1,2,3)
+
+$ git branch bug2 
+
+$ git branch bug3
+
+$ ls (proverka)
+
+$ git checkout bug1 (prefrluvanje do branch bug1)
+
+$ nano SILab1.java (otvaranje na fajlot i ispravuvanje na greska)
+
+$ git add SILab1.java (dodavanje na ispravenata greska)
+
+$ git commit -m "Fix wrong loop for reading" (pravime commit so poraka)
+
+
+$ git checkout bug2 (se prefrluvame vo bug2)
+
+$ nano SILab1.java (otvaranje na fajlot i ispravuvanje na greska)
+
+$ git add SILab1.java (dodavanje na ispravenata greska)
+
+$ git commit -m "Fix wrong condition in filterOddNumbers"  (pravime commit so poraka)
+
+$ git checkout bug3 (se prefrluvame vo bug3)
+
+$ nano SILab1.java (otvaranje na fajlot i ispravuvanje na greska)
+
+$ git add SILab1.java (dodavanje na ispravenata greska)
+
+$ git commit -m "Fix method sumEvenNumbers"  (pravime commit so poraka)
+
+DELL@DESKTOP-JS2OP1B MINGW64 ~/SI_2023_lab1_215020 (bug3)
+
+$ git checkout master (se prefrluvame vo master)
+
+$ git push -u origin master (zaboraviv da go smestam SIlab1.java na remote repo
+pa sega go stavam xD )
+
+$ git merge bug1 (ja spojuvame bug1 so master)
+
+$ git pull (proveruvame dali e se sinhronizirano)
+
+$ git push (dodavanje na bug1 so izmenite na remote repo)
+
+$ git pull (proverka)
+
+$ git merge bug2 (gi spojuvame bug2 i master)
+
+$ git push (dodavanje na bug2 so izmenite na remote repo)
+
+$ git branch (proverka za toa kade sum)
+
+$ git checkout bug3 (se prefrluvame vo bug3)
+
+$ git rebase master (pravime rebase odnosno gi prefrluvame promenite vo master)
+
+$ git checkout master (se prefrluvame vo master)
+
+$ git status (proverka)
+
+$ git pull (proverka)
+
+$ git merge bug3 (spojuvanje na bug3 so master)
+
+$ git push (dodavanje na bug3 vo remote repo)
+
+$ git status (proverka)
+
+$ git log (ni dava dokumentacija za site commiti i so sme pravele)
+
+$ nano logs.txt (kreiranje na logs fajlot)
+
+$ git add logs.txt (dodavanje na logs fajlot)
+
+$ git commit -m"Add logs" (pravime commit)
+
+$ git status (proverka)
+
+$ git push (dodavanje na logs na remote repo)
