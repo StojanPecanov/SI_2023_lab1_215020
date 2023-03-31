@@ -1,0 +1,35 @@
+Author: Stojan Pecanov <specanov32@gmail.com>
+Date:   Fri Mar 31 21:00:14 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit a64aa681a1111c79248df8bcb368f8a7697a9321
+Merge: 3444faf 4178ee2
+Author: Stojan Pecanov <specanov32@gmail.com>
+Date:   Fri Mar 31 21:23:17 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 4178ee2b093e23556ffd281729b15d2a69ab406a (bug2)
+Author: Stojan Pecanov <specanov32@gmail.com>
+Date:   Fri Mar 31 20:57:33 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 3444faf501f7c3811fbf8df6b9fff1ae48ee1510 (bug1)
+Author: Stojan Pecanov <specanov32@gmail.com>
+Date:   Fri Mar 31 20:54:43 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 95bb7215bc3c20102d9a3c809660b111fdad1e4e
+Author: Stojan Pecanov <specanov32@gmail.com>
+Date:   Fri Mar 31 20:49:33 2023 +0200
+
+    Add java class
+
+commit 63e0d03776b46fd882bf30259f717c48cc1ac571
+Author: Stojan Pecanov <specanov32@gmail.com>
+Date:   Fri Mar 31 20:37:34 2023 +0200
+
+    Initial commit
